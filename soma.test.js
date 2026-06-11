@@ -5,4 +5,4 @@ test('Deve somar dois numeros', () => {
     expect(resultado).toBe(15);
 })
 
-console.log('test')
+console.log('teste')
