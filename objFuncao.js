@@ -16,3 +16,6 @@ dividir (){
 }
 
     console.log(calculadora.multiplicar())
+    console.log(calculadora.somar())
+    console.log(calculadora.subtrair())
+    console.log(calculadora.dividir())
