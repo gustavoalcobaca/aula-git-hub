@@ -3,6 +3,8 @@ const carro = {
     motor: "V12",
     potencia: "789cv",
 }
-for (let motor in carro){
-    console.log(`${motor}: ${carro[motor]}`);
+for (let chave in carro){
+console.log(`${chave}: ${carro[chave]}`)
 }
+console.log(Object.values(carro));
+console.log(Object.keys(carro));
